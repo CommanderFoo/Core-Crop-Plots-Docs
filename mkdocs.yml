@@ -1,0 +1,48 @@
+site_name: Crop Plots
+site_description: Documentation for Crop Plots by CommanderFoo in Community Content
+docs_dir: docs
+extra_css:
+  - styles/extra.css
+theme:
+  font:
+    text: Roboto
+    code: Monospace
+  palette:
+    scheme: slate
+    primary: blue
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - toc.integrate
+    - navigation.expand
+  
+nav:
+  - Documentation:
+    - index.md
+    - quick-start.md
+    - creating-crops.md
+    - creating-plots.md
+    - creating-crop-beds.md
+    - planting-harvesting-crops.md
+    - buying-selling.md
+    - ideas-for-you.md
+    - credits.md
+
+  - Core Games:
+    - https://coregames.com
+
+  - Twitter:
+    - https://twitter.com/PIXELDEPTH
+
+  - GitHub:
+    - https://pixeldepth.net
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - markdown.extensions.codehilite:
+      guess_lang: false
