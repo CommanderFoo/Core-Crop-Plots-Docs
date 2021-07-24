@@ -16,9 +16,11 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 4611876885048611584
         ChildIds: 11491867950953934823
         ChildIds: 9294911290282756221
         ChildIds: 14889545809753638467
+        ChildIds: 9910399884719584072
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -36,12 +38,45 @@ Assets {
         }
       }
       Objects {
+        Id: 4611876885048611584
+        Name: "CROP_PLOTS_READ_ME"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6387200221022991843
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 1611077580769921767
+          }
+        }
+      }
+      Objects {
         Id: 11491867950953934823
         Name: "Crop Plots"
         Transform {
           Location {
-            X: -1241.66492
-            Y: 34.8982353
+            X: -191.664917
+            Y: 184.898239
           }
           Rotation {
           }
@@ -351,7 +386,7 @@ Assets {
           }
           Overrides {
             Name: "cs:description"
-            String: "dsdsa"
+            String: "Watermelon is a flowering plant species of the Cucurbitaceae family and the name of its edible fruit."
           }
           Overrides {
             Name: "cs:growth_time"
@@ -484,18 +519,26 @@ Assets {
         }
         ParentId: 7996833096267234261
         ChildIds: 16716240397520402335
-        ChildIds: 16100747575024297578
-        ChildIds: 15952486069991347350
-        ChildIds: 15535545568262325051
-        ChildIds: 11589906631985192206
-        ChildIds: 9897709539412235099
-        ChildIds: 12768659621448844251
-        ChildIds: 12302996914007875656
-        ChildIds: 17101153908520717439
-        ChildIds: 4228352815430000115
-        ChildIds: 7812741767587870754
-        ChildIds: 7207294256373692865
-        ChildIds: 9798722872186889339
+        ChildIds: 16007417236274975215
+        ChildIds: 11818591051393909235
+        ChildIds: 16738677103561779500
+        ChildIds: 2176012101196538492
+        ChildIds: 4930081250370338285
+        ChildIds: 5380462231784126754
+        ChildIds: 12627543920651494879
+        ChildIds: 12699281598711386135
+        ChildIds: 2079838008447144354
+        ChildIds: 10107549239936222739
+        ChildIds: 13989308396857609725
+        ChildIds: 2944590567906763110
+        ChildIds: 5751070821287893134
+        ChildIds: 8719377684516136051
+        ChildIds: 3417831803165114524
+        ChildIds: 8193423138181166239
+        ChildIds: 445720425664506041
+        ChildIds: 8366552813769094293
+        ChildIds: 12281764122263450010
+        ChildIds: 10382507086805871347
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -520,14 +563,14 @@ Assets {
         Transform {
           Location {
             X: -325
-            Y: -175
+            Y: -209.898254
             Z: 240.749298
           }
           Rotation {
           }
           Scale {
-            X: 17
-            Y: 15.000001
+            X: 20
+            Y: 18
             Z: 5
           }
         }
@@ -566,13 +609,12 @@ Assets {
         }
       }
       Objects {
-        Id: 16100747575024297578
+        Id: 16007417236274975215
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: 400
-          }
-          Rotation {
+            X: 566.664917
+            Y: 165.101761
           }
           Scale {
             X: 1
@@ -581,9 +623,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 14961680744332516784
-        ChildIds: 9576693829760519400
-        ChildIds: 8499409493270505683
+        ChildIds: 2580682467282126194
+        ChildIds: 15103592336515340582
+        ChildIds: 12245230647551644142
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -607,7 +649,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14961680744332516784
+        Id: 2580682467282126194
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -623,7 +665,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16100747575024297578
+        ParentId: 16007417236274975215
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -640,7 +682,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9576693829760519400
+        Id: 15103592336515340582
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -656,7 +698,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 16100747575024297578
+        ParentId: 16007417236274975215
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -691,7 +733,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8499409493270505683
+        Id: 12245230647551644142
         Name: "Client Geo"
         Transform {
           Location {
@@ -706,13 +748,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16100747575024297578
-        ChildIds: 16647909743761072508
-        ChildIds: 11467706600620670817
-        ChildIds: 10934753519175170343
-        ChildIds: 7421564093290955176
-        ChildIds: 17762468995721185053
-        ChildIds: 5904090286278945497
+        ParentId: 16007417236274975215
+        ChildIds: 14640042445625007160
+        ChildIds: 11939055699534546451
+        ChildIds: 17514352200516486593
+        ChildIds: 13646872094343884076
+        ChildIds: 4959831233326107184
+        ChildIds: 17738718381468924816
+        ChildIds: 8440557464309910883
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -729,7 +772,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16647909743761072508
+        Id: 14640042445625007160
         Name: "Frame"
         Transform {
           Location {
@@ -745,11 +788,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8499409493270505683
-        ChildIds: 2509889452360296079
-        ChildIds: 11190797845340346940
-        ChildIds: 13073131132282153257
-        ChildIds: 12194610468826156462
+        ParentId: 12245230647551644142
+        ChildIds: 432434827222576541
+        ChildIds: 14189210849653429967
+        ChildIds: 19684714759164267
+        ChildIds: 14905835083913595844
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -767,7 +810,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2509889452360296079
+        Id: 432434827222576541
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -783,7 +826,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16647909743761072508
+        ParentId: 14640042445625007160
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -814,7 +857,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11190797845340346940
+        Id: 14189210849653429967
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -832,7 +875,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16647909743761072508
+        ParentId: 14640042445625007160
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -863,7 +906,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13073131132282153257
+        Id: 19684714759164267
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -880,7 +923,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16647909743761072508
+        ParentId: 14640042445625007160
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -911,7 +954,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12194610468826156462
+        Id: 14905835083913595844
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -928,7 +971,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16647909743761072508
+        ParentId: 14640042445625007160
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -959,7 +1002,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11467706600620670817
+        Id: 11939055699534546451
         Name: "Dirt"
         Transform {
           Location {
@@ -973,7 +1016,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8499409493270505683
+        ParentId: 12245230647551644142
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1012,7 +1055,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10934753519175170343
+        Id: 17514352200516486593
         Name: "Outline Object"
         Transform {
           Location {
@@ -1025,17 +1068,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8499409493270505683
+        ParentId: 12245230647551644142
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 16647909743761072508
+              SubObjectId: 14640042445625007160
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -1045,8 +1088,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -1087,7 +1130,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7421564093290955176
+        Id: 13646872094343884076
         Name: "Area Trigger"
         Transform {
           Location {
@@ -1101,7 +1144,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 8499409493270505683
+        ParentId: 12245230647551644142
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -1125,7 +1168,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17762468995721185053
+        Id: 4959831233326107184
         Name: "Highlight"
         Transform {
           Location {
@@ -1140,7 +1183,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 8499409493270505683
+        ParentId: 12245230647551644142
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1184,7 +1227,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5904090286278945497
+        Id: 17738718381468924816
         Name: "Grown Effect"
         Transform {
           Location {
@@ -1198,7 +1241,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8499409493270505683
+        ParentId: 12245230647551644142
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -1261,12 +1304,79 @@ Assets {
         }
       }
       Objects {
-        Id: 15952486069991347350
+        Id: 8440557464309910883
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12245230647551644142
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 11818591051393909235
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: 400
-            Y: -400
+            X: 216.664917
+            Y: 165.101761
           }
           Rotation {
           }
@@ -1277,9 +1387,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 15251770317251567585
-        ChildIds: 10026211976154557444
-        ChildIds: 7253787012464903071
+        ChildIds: 1063289896723733416
+        ChildIds: 5290203561318599636
+        ChildIds: 8041893761337308677
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -1303,7 +1413,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15251770317251567585
+        Id: 1063289896723733416
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -1319,7 +1429,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15952486069991347350
+        ParentId: 11818591051393909235
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -1336,7 +1446,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10026211976154557444
+        Id: 5290203561318599636
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -1352,7 +1462,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 15952486069991347350
+        ParentId: 11818591051393909235
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1387,7 +1497,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7253787012464903071
+        Id: 8041893761337308677
         Name: "Client Geo"
         Transform {
           Location {
@@ -1402,13 +1512,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15952486069991347350
-        ChildIds: 11321964720972810970
-        ChildIds: 13767407385416596823
-        ChildIds: 18216808158617466161
-        ChildIds: 12713658650002342700
-        ChildIds: 6891406262843804923
-        ChildIds: 9217936256721012520
+        ParentId: 11818591051393909235
+        ChildIds: 10302611618762721187
+        ChildIds: 10662747080675613462
+        ChildIds: 5055662450022491866
+        ChildIds: 13732317761889663358
+        ChildIds: 391004713355917986
+        ChildIds: 4755178487699063888
+        ChildIds: 11201080457074094241
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -1425,7 +1536,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11321964720972810970
+        Id: 10302611618762721187
         Name: "Frame"
         Transform {
           Location {
@@ -1441,11 +1552,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7253787012464903071
-        ChildIds: 6409107872263464464
-        ChildIds: 12465097806629259473
-        ChildIds: 7555063083754219787
-        ChildIds: 16895306197931534369
+        ParentId: 8041893761337308677
+        ChildIds: 17896475882493356619
+        ChildIds: 10167756903698537404
+        ChildIds: 6509627345809482169
+        ChildIds: 3158211775336723458
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1463,7 +1574,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6409107872263464464
+        Id: 17896475882493356619
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -1479,7 +1590,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11321964720972810970
+        ParentId: 10302611618762721187
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1510,7 +1621,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12465097806629259473
+        Id: 10167756903698537404
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -1528,7 +1639,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11321964720972810970
+        ParentId: 10302611618762721187
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1559,7 +1670,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7555063083754219787
+        Id: 6509627345809482169
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -1576,7 +1687,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11321964720972810970
+        ParentId: 10302611618762721187
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1607,7 +1718,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16895306197931534369
+        Id: 3158211775336723458
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -1624,7 +1735,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11321964720972810970
+        ParentId: 10302611618762721187
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1655,7 +1766,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13767407385416596823
+        Id: 10662747080675613462
         Name: "Dirt"
         Transform {
           Location {
@@ -1669,7 +1780,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7253787012464903071
+        ParentId: 8041893761337308677
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1708,7 +1819,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18216808158617466161
+        Id: 5055662450022491866
         Name: "Outline Object"
         Transform {
           Location {
@@ -1721,17 +1832,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7253787012464903071
+        ParentId: 8041893761337308677
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 11321964720972810970
+              SubObjectId: 10302611618762721187
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -1741,8 +1852,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -1783,7 +1894,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12713658650002342700
+        Id: 13732317761889663358
         Name: "Area Trigger"
         Transform {
           Location {
@@ -1797,7 +1908,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 7253787012464903071
+        ParentId: 8041893761337308677
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -1821,7 +1932,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6891406262843804923
+        Id: 391004713355917986
         Name: "Highlight"
         Transform {
           Location {
@@ -1836,7 +1947,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 7253787012464903071
+        ParentId: 8041893761337308677
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1880,7 +1991,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9217936256721012520
+        Id: 4755178487699063888
         Name: "Grown Effect"
         Transform {
           Location {
@@ -1894,7 +2005,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7253787012464903071
+        ParentId: 8041893761337308677
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -1957,12 +2068,79 @@ Assets {
         }
       }
       Objects {
-        Id: 15535545568262325051
+        Id: 11201080457074094241
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8041893761337308677
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 16738677103561779500
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: 400
-            Y: -800
+            X: -133.335083
+            Y: 165.101761
           }
           Rotation {
           }
@@ -1973,9 +2151,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 6570338655827163169
-        ChildIds: 2911440654299531605
-        ChildIds: 3562486670449053372
+        ChildIds: 5930145507182129616
+        ChildIds: 15041720131379510437
+        ChildIds: 17482890732155271582
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -1999,7 +2177,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6570338655827163169
+        Id: 5930145507182129616
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -2015,7 +2193,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15535545568262325051
+        ParentId: 16738677103561779500
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -2032,7 +2210,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2911440654299531605
+        Id: 15041720131379510437
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -2048,7 +2226,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 15535545568262325051
+        ParentId: 16738677103561779500
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2083,7 +2261,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3562486670449053372
+        Id: 17482890732155271582
         Name: "Client Geo"
         Transform {
           Location {
@@ -2098,13 +2276,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15535545568262325051
-        ChildIds: 7941329945889822453
-        ChildIds: 7391174763201087871
-        ChildIds: 16754732544430378761
-        ChildIds: 4722499612008107298
-        ChildIds: 14150699161022178992
-        ChildIds: 11805184184970651576
+        ParentId: 16738677103561779500
+        ChildIds: 7506811404560276500
+        ChildIds: 7252572474546203460
+        ChildIds: 11580876693558559465
+        ChildIds: 7982972191285814966
+        ChildIds: 16147805802215921141
+        ChildIds: 8534654208795808696
+        ChildIds: 1324594087126532731
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -2121,7 +2300,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7941329945889822453
+        Id: 7506811404560276500
         Name: "Frame"
         Transform {
           Location {
@@ -2137,11 +2316,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3562486670449053372
-        ChildIds: 5810827620768104550
-        ChildIds: 8932493782019572628
-        ChildIds: 7775300597403638661
-        ChildIds: 10419546655552051786
+        ParentId: 17482890732155271582
+        ChildIds: 759337224849674154
+        ChildIds: 13280805475788619847
+        ChildIds: 12972748013491635659
+        ChildIds: 9067064371933391617
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2159,7 +2338,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5810827620768104550
+        Id: 759337224849674154
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -2175,7 +2354,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7941329945889822453
+        ParentId: 7506811404560276500
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2206,7 +2385,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8932493782019572628
+        Id: 13280805475788619847
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -2224,7 +2403,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7941329945889822453
+        ParentId: 7506811404560276500
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2255,7 +2434,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7775300597403638661
+        Id: 12972748013491635659
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -2272,7 +2451,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7941329945889822453
+        ParentId: 7506811404560276500
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2303,7 +2482,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10419546655552051786
+        Id: 9067064371933391617
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -2320,7 +2499,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7941329945889822453
+        ParentId: 7506811404560276500
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2351,7 +2530,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7391174763201087871
+        Id: 7252572474546203460
         Name: "Dirt"
         Transform {
           Location {
@@ -2365,7 +2544,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3562486670449053372
+        ParentId: 17482890732155271582
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2404,7 +2583,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16754732544430378761
+        Id: 11580876693558559465
         Name: "Outline Object"
         Transform {
           Location {
@@ -2417,17 +2596,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3562486670449053372
+        ParentId: 17482890732155271582
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 7941329945889822453
+              SubObjectId: 7506811404560276500
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -2437,8 +2616,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -2479,7 +2658,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4722499612008107298
+        Id: 7982972191285814966
         Name: "Area Trigger"
         Transform {
           Location {
@@ -2493,7 +2672,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 3562486670449053372
+        ParentId: 17482890732155271582
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -2517,7 +2696,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14150699161022178992
+        Id: 16147805802215921141
         Name: "Highlight"
         Transform {
           Location {
@@ -2532,7 +2711,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 3562486670449053372
+        ParentId: 17482890732155271582
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2576,7 +2755,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11805184184970651576
+        Id: 8534654208795808696
         Name: "Grown Effect"
         Transform {
           Location {
@@ -2590,7 +2769,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 3562486670449053372
+        ParentId: 17482890732155271582
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -2653,12 +2832,79 @@ Assets {
         }
       }
       Objects {
-        Id: 11589906631985192206
+        Id: 1324594087126532731
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17482890732155271582
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 2176012101196538492
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: 25
-            Y: -800
+            X: -483.335083
+            Y: 165.101761
           }
           Rotation {
           }
@@ -2669,9 +2915,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 16227098858705118666
-        ChildIds: 3419622173642184968
-        ChildIds: 16064584818910148998
+        ChildIds: 13527281805289408492
+        ChildIds: 6798609668015400739
+        ChildIds: 12093039157579977085
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -2695,7 +2941,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16227098858705118666
+        Id: 13527281805289408492
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -2711,7 +2957,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11589906631985192206
+        ParentId: 2176012101196538492
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -2728,7 +2974,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3419622173642184968
+        Id: 6798609668015400739
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -2744,7 +2990,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 11589906631985192206
+        ParentId: 2176012101196538492
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2779,7 +3025,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16064584818910148998
+        Id: 12093039157579977085
         Name: "Client Geo"
         Transform {
           Location {
@@ -2794,13 +3040,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11589906631985192206
-        ChildIds: 7736300321398595342
-        ChildIds: 15427420043022056739
-        ChildIds: 12386850693001905180
-        ChildIds: 8025801203953145356
-        ChildIds: 12666235722180238873
-        ChildIds: 3024314641646840887
+        ParentId: 2176012101196538492
+        ChildIds: 8685199293111796719
+        ChildIds: 8583269050084965460
+        ChildIds: 6802692238010107827
+        ChildIds: 15958811872961660735
+        ChildIds: 2175145685046720322
+        ChildIds: 15102443061963450968
+        ChildIds: 7044523309412682823
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -2817,7 +3064,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7736300321398595342
+        Id: 8685199293111796719
         Name: "Frame"
         Transform {
           Location {
@@ -2833,11 +3080,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16064584818910148998
-        ChildIds: 10901116797643579743
-        ChildIds: 7175256078295749278
-        ChildIds: 2067060451819736113
-        ChildIds: 8877110886585789739
+        ParentId: 12093039157579977085
+        ChildIds: 15578925952937662539
+        ChildIds: 17150132987017352492
+        ChildIds: 13264679792871816114
+        ChildIds: 14709580045183212343
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2855,7 +3102,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10901116797643579743
+        Id: 15578925952937662539
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -2871,7 +3118,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7736300321398595342
+        ParentId: 8685199293111796719
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2902,7 +3149,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7175256078295749278
+        Id: 17150132987017352492
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -2920,7 +3167,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7736300321398595342
+        ParentId: 8685199293111796719
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2951,7 +3198,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2067060451819736113
+        Id: 13264679792871816114
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -2968,7 +3215,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7736300321398595342
+        ParentId: 8685199293111796719
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2999,7 +3246,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8877110886585789739
+        Id: 14709580045183212343
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -3016,7 +3263,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7736300321398595342
+        ParentId: 8685199293111796719
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3047,7 +3294,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15427420043022056739
+        Id: 8583269050084965460
         Name: "Dirt"
         Transform {
           Location {
@@ -3061,7 +3308,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16064584818910148998
+        ParentId: 12093039157579977085
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3100,7 +3347,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12386850693001905180
+        Id: 6802692238010107827
         Name: "Outline Object"
         Transform {
           Location {
@@ -3113,17 +3360,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16064584818910148998
+        ParentId: 12093039157579977085
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 7736300321398595342
+              SubObjectId: 8685199293111796719
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -3133,8 +3380,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -3175,7 +3422,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8025801203953145356
+        Id: 15958811872961660735
         Name: "Area Trigger"
         Transform {
           Location {
@@ -3189,7 +3436,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 16064584818910148998
+        ParentId: 12093039157579977085
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -3213,7 +3460,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12666235722180238873
+        Id: 2175145685046720322
         Name: "Highlight"
         Transform {
           Location {
@@ -3228,7 +3475,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 16064584818910148998
+        ParentId: 12093039157579977085
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3272,7 +3519,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3024314641646840887
+        Id: 15102443061963450968
         Name: "Grown Effect"
         Transform {
           Location {
@@ -3286,7 +3533,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16064584818910148998
+        ParentId: 12093039157579977085
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -3349,12 +3596,79 @@ Assets {
         }
       }
       Objects {
-        Id: 9897709539412235099
+        Id: 7044523309412682823
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12093039157579977085
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 4930081250370338285
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: 25
-            Y: -400
+            X: -833.335083
+            Y: 165.101761
           }
           Rotation {
           }
@@ -3365,9 +3679,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 13714186741270215170
-        ChildIds: 13200774353672498269
-        ChildIds: 5983777615572744437
+        ChildIds: 11643723188917793446
+        ChildIds: 5461456263593226992
+        ChildIds: 3846692412861119170
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -3391,7 +3705,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13714186741270215170
+        Id: 11643723188917793446
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -3407,7 +3721,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9897709539412235099
+        ParentId: 4930081250370338285
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -3424,7 +3738,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13200774353672498269
+        Id: 5461456263593226992
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -3440,7 +3754,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 9897709539412235099
+        ParentId: 4930081250370338285
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3475,7 +3789,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5983777615572744437
+        Id: 3846692412861119170
         Name: "Client Geo"
         Transform {
           Location {
@@ -3490,13 +3804,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9897709539412235099
-        ChildIds: 8868003858604321317
-        ChildIds: 1330895158467597760
-        ChildIds: 17497080402308116075
-        ChildIds: 5771999571180253947
-        ChildIds: 877928313351295847
-        ChildIds: 9852784944042988267
+        ParentId: 4930081250370338285
+        ChildIds: 7560397540099340708
+        ChildIds: 12747744405074834200
+        ChildIds: 3098637969938293324
+        ChildIds: 17762546453298913083
+        ChildIds: 11420557320297275535
+        ChildIds: 15248379012972816731
+        ChildIds: 12181708429576134584
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -3513,7 +3828,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8868003858604321317
+        Id: 7560397540099340708
         Name: "Frame"
         Transform {
           Location {
@@ -3529,11 +3844,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5983777615572744437
-        ChildIds: 1288075118500795537
-        ChildIds: 263782603212225004
-        ChildIds: 15157826437298550066
-        ChildIds: 11451416882117947899
+        ParentId: 3846692412861119170
+        ChildIds: 786284117112711408
+        ChildIds: 16211542779562125930
+        ChildIds: 17432976420396596270
+        ChildIds: 16350686303029878283
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3551,7 +3866,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1288075118500795537
+        Id: 786284117112711408
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -3567,7 +3882,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8868003858604321317
+        ParentId: 7560397540099340708
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3598,7 +3913,7 @@ Assets {
         }
       }
       Objects {
-        Id: 263782603212225004
+        Id: 16211542779562125930
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -3616,7 +3931,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8868003858604321317
+        ParentId: 7560397540099340708
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3647,7 +3962,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15157826437298550066
+        Id: 17432976420396596270
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -3664,7 +3979,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8868003858604321317
+        ParentId: 7560397540099340708
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3695,7 +4010,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11451416882117947899
+        Id: 16350686303029878283
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -3712,7 +4027,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8868003858604321317
+        ParentId: 7560397540099340708
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3743,7 +4058,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1330895158467597760
+        Id: 12747744405074834200
         Name: "Dirt"
         Transform {
           Location {
@@ -3757,7 +4072,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5983777615572744437
+        ParentId: 3846692412861119170
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3796,7 +4111,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17497080402308116075
+        Id: 3098637969938293324
         Name: "Outline Object"
         Transform {
           Location {
@@ -3809,17 +4124,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5983777615572744437
+        ParentId: 3846692412861119170
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 8868003858604321317
+              SubObjectId: 7560397540099340708
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -3829,8 +4144,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -3871,7 +4186,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5771999571180253947
+        Id: 17762546453298913083
         Name: "Area Trigger"
         Transform {
           Location {
@@ -3885,7 +4200,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 5983777615572744437
+        ParentId: 3846692412861119170
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -3909,7 +4224,7 @@ Assets {
         }
       }
       Objects {
-        Id: 877928313351295847
+        Id: 11420557320297275535
         Name: "Highlight"
         Transform {
           Location {
@@ -3924,7 +4239,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 5983777615572744437
+        ParentId: 3846692412861119170
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3968,7 +4283,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9852784944042988267
+        Id: 15248379012972816731
         Name: "Grown Effect"
         Transform {
           Location {
@@ -3982,7 +4297,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5983777615572744437
+        ParentId: 3846692412861119170
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -4045,11 +4360,79 @@ Assets {
         }
       }
       Objects {
-        Id: 12768659621448844251
+        Id: 12181708429576134584
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3846692412861119170
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 5380462231784126754
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: 25
+            X: 566.664917
+            Y: -209.898239
           }
           Rotation {
           }
@@ -4060,9 +4443,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 4445690007150468570
-        ChildIds: 8884049769100641618
-        ChildIds: 10739179297457437813
+        ChildIds: 3115742711429508285
+        ChildIds: 2807828196665737002
+        ChildIds: 16652467506064902656
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -4086,7 +4469,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4445690007150468570
+        Id: 3115742711429508285
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -4102,7 +4485,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12768659621448844251
+        ParentId: 5380462231784126754
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -4119,7 +4502,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8884049769100641618
+        Id: 2807828196665737002
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -4135,7 +4518,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 12768659621448844251
+        ParentId: 5380462231784126754
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4170,7 +4553,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10739179297457437813
+        Id: 16652467506064902656
         Name: "Client Geo"
         Transform {
           Location {
@@ -4185,13 +4568,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12768659621448844251
-        ChildIds: 12813495670735783838
-        ChildIds: 4787170059922573225
-        ChildIds: 2071176690784402028
-        ChildIds: 3895447355491641824
-        ChildIds: 15472793740077811975
-        ChildIds: 6010133838575614412
+        ParentId: 5380462231784126754
+        ChildIds: 9943573531353358797
+        ChildIds: 8901782590068656578
+        ChildIds: 9318602907090393951
+        ChildIds: 5591381838333283502
+        ChildIds: 8121521083419762486
+        ChildIds: 16927775632393838881
+        ChildIds: 10981491430288533060
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -4208,7 +4592,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12813495670735783838
+        Id: 9943573531353358797
         Name: "Frame"
         Transform {
           Location {
@@ -4224,11 +4608,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10739179297457437813
-        ChildIds: 5834942705298368322
-        ChildIds: 4940507144345290064
-        ChildIds: 15377660402454222234
-        ChildIds: 14091801743805621613
+        ParentId: 16652467506064902656
+        ChildIds: 2239010498691830552
+        ChildIds: 12145759542171787843
+        ChildIds: 444723791335204742
+        ChildIds: 17700151554430502801
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4246,7 +4630,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5834942705298368322
+        Id: 2239010498691830552
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -4262,7 +4646,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12813495670735783838
+        ParentId: 9943573531353358797
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4293,7 +4677,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4940507144345290064
+        Id: 12145759542171787843
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -4311,7 +4695,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12813495670735783838
+        ParentId: 9943573531353358797
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4342,7 +4726,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15377660402454222234
+        Id: 444723791335204742
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -4359,7 +4743,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12813495670735783838
+        ParentId: 9943573531353358797
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4390,7 +4774,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14091801743805621613
+        Id: 17700151554430502801
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -4407,7 +4791,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12813495670735783838
+        ParentId: 9943573531353358797
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4438,7 +4822,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4787170059922573225
+        Id: 8901782590068656578
         Name: "Dirt"
         Transform {
           Location {
@@ -4452,7 +4836,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10739179297457437813
+        ParentId: 16652467506064902656
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4491,7 +4875,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2071176690784402028
+        Id: 9318602907090393951
         Name: "Outline Object"
         Transform {
           Location {
@@ -4504,17 +4888,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10739179297457437813
+        ParentId: 16652467506064902656
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 12813495670735783838
+              SubObjectId: 9943573531353358797
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -4524,8 +4908,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -4566,7 +4950,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3895447355491641824
+        Id: 5591381838333283502
         Name: "Area Trigger"
         Transform {
           Location {
@@ -4580,7 +4964,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 10739179297457437813
+        ParentId: 16652467506064902656
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -4604,7 +4988,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15472793740077811975
+        Id: 8121521083419762486
         Name: "Highlight"
         Transform {
           Location {
@@ -4619,7 +5003,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 10739179297457437813
+        ParentId: 16652467506064902656
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4663,7 +5047,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6010133838575614412
+        Id: 16927775632393838881
         Name: "Grown Effect"
         Transform {
           Location {
@@ -4677,7 +5061,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10739179297457437813
+        ParentId: 16652467506064902656
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -4740,11 +5124,79 @@ Assets {
         }
       }
       Objects {
-        Id: 12302996914007875656
+        Id: 10981491430288533060
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16652467506064902656
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 12627543920651494879
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: -325
+            X: 216.664917
+            Y: -209.898239
           }
           Rotation {
           }
@@ -4755,9 +5207,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 15224060244205883305
-        ChildIds: 15203625163272939227
-        ChildIds: 16381725717926772274
+        ChildIds: 7323182616971140916
+        ChildIds: 9247800452096075241
+        ChildIds: 4879236409853405836
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -4781,7 +5233,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15224060244205883305
+        Id: 7323182616971140916
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -4797,7 +5249,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12302996914007875656
+        ParentId: 12627543920651494879
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -4814,7 +5266,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15203625163272939227
+        Id: 9247800452096075241
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -4830,7 +5282,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 12302996914007875656
+        ParentId: 12627543920651494879
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4865,7 +5317,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16381725717926772274
+        Id: 4879236409853405836
         Name: "Client Geo"
         Transform {
           Location {
@@ -4880,13 +5332,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12302996914007875656
-        ChildIds: 803730776225614569
-        ChildIds: 2684784263496680412
-        ChildIds: 8569894684112168024
-        ChildIds: 6543920268837319467
-        ChildIds: 1569673430724641906
-        ChildIds: 15878352608711810278
+        ParentId: 12627543920651494879
+        ChildIds: 9783067636978038762
+        ChildIds: 11288487235085711981
+        ChildIds: 8606291192780384357
+        ChildIds: 2524352817672118376
+        ChildIds: 7639151074195779782
+        ChildIds: 4764450468741675856
+        ChildIds: 6571452024527960176
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -4903,7 +5356,7 @@ Assets {
         }
       }
       Objects {
-        Id: 803730776225614569
+        Id: 9783067636978038762
         Name: "Frame"
         Transform {
           Location {
@@ -4919,11 +5372,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16381725717926772274
-        ChildIds: 7828483052816736989
-        ChildIds: 11098831796914113694
-        ChildIds: 4345151124126428191
-        ChildIds: 16733008908476318931
+        ParentId: 4879236409853405836
+        ChildIds: 11129508181603731028
+        ChildIds: 12877351629866309042
+        ChildIds: 1134330384981109920
+        ChildIds: 9256012988175001955
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4941,7 +5394,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7828483052816736989
+        Id: 11129508181603731028
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -4957,7 +5410,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 803730776225614569
+        ParentId: 9783067636978038762
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4988,7 +5441,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11098831796914113694
+        Id: 12877351629866309042
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -5006,7 +5459,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 803730776225614569
+        ParentId: 9783067636978038762
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5037,7 +5490,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4345151124126428191
+        Id: 1134330384981109920
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -5054,7 +5507,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 803730776225614569
+        ParentId: 9783067636978038762
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5085,7 +5538,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16733008908476318931
+        Id: 9256012988175001955
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -5102,7 +5555,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 803730776225614569
+        ParentId: 9783067636978038762
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5133,7 +5586,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2684784263496680412
+        Id: 11288487235085711981
         Name: "Dirt"
         Transform {
           Location {
@@ -5147,7 +5600,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16381725717926772274
+        ParentId: 4879236409853405836
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5186,7 +5639,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8569894684112168024
+        Id: 8606291192780384357
         Name: "Outline Object"
         Transform {
           Location {
@@ -5199,17 +5652,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16381725717926772274
+        ParentId: 4879236409853405836
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 803730776225614569
+              SubObjectId: 9783067636978038762
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -5219,8 +5672,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -5261,7 +5714,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6543920268837319467
+        Id: 2524352817672118376
         Name: "Area Trigger"
         Transform {
           Location {
@@ -5275,7 +5728,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 16381725717926772274
+        ParentId: 4879236409853405836
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -5299,7 +5752,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1569673430724641906
+        Id: 7639151074195779782
         Name: "Highlight"
         Transform {
           Location {
@@ -5314,7 +5767,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 16381725717926772274
+        ParentId: 4879236409853405836
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5358,7 +5811,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15878352608711810278
+        Id: 4764450468741675856
         Name: "Grown Effect"
         Transform {
           Location {
@@ -5372,7 +5825,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16381725717926772274
+        ParentId: 4879236409853405836
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -5435,12 +5888,79 @@ Assets {
         }
       }
       Objects {
-        Id: 17101153908520717439
+        Id: 6571452024527960176
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4879236409853405836
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 12699281598711386135
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: -325
-            Y: -400
+            X: -133.335083
+            Y: -209.898239
           }
           Rotation {
           }
@@ -5451,9 +5971,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 8939004668962458891
-        ChildIds: 17528361838859662994
-        ChildIds: 11276415905407605395
+        ChildIds: 4161523498833220572
+        ChildIds: 5470949311953667435
+        ChildIds: 2509363588032435392
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -5477,7 +5997,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8939004668962458891
+        Id: 4161523498833220572
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -5493,7 +6013,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17101153908520717439
+        ParentId: 12699281598711386135
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -5510,7 +6030,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17528361838859662994
+        Id: 5470949311953667435
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -5526,7 +6046,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 17101153908520717439
+        ParentId: 12699281598711386135
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5561,7 +6081,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11276415905407605395
+        Id: 2509363588032435392
         Name: "Client Geo"
         Transform {
           Location {
@@ -5576,13 +6096,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17101153908520717439
-        ChildIds: 6969505719832364691
-        ChildIds: 4017873734892415333
-        ChildIds: 13030591516572534145
-        ChildIds: 5216086023246003382
-        ChildIds: 17328485148290720228
-        ChildIds: 13954769063169564622
+        ParentId: 12699281598711386135
+        ChildIds: 18033264439490340621
+        ChildIds: 13373853211481554321
+        ChildIds: 4711779519012866691
+        ChildIds: 4780166800055440710
+        ChildIds: 12790820953564187442
+        ChildIds: 17823721151933356820
+        ChildIds: 6378209694897680996
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -5599,7 +6120,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6969505719832364691
+        Id: 18033264439490340621
         Name: "Frame"
         Transform {
           Location {
@@ -5615,11 +6136,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11276415905407605395
-        ChildIds: 1311113510965458251
-        ChildIds: 9918200384784661963
-        ChildIds: 1641519487433350011
-        ChildIds: 7578105784629688300
+        ParentId: 2509363588032435392
+        ChildIds: 11444599152132312977
+        ChildIds: 4688315225702994722
+        ChildIds: 13674929339411120721
+        ChildIds: 14704090915539413943
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5637,7 +6158,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1311113510965458251
+        Id: 11444599152132312977
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -5653,7 +6174,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6969505719832364691
+        ParentId: 18033264439490340621
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5684,7 +6205,7 @@ Assets {
         }
       }
       Objects {
-        Id: 9918200384784661963
+        Id: 4688315225702994722
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -5702,7 +6223,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6969505719832364691
+        ParentId: 18033264439490340621
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5733,7 +6254,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1641519487433350011
+        Id: 13674929339411120721
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -5750,7 +6271,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6969505719832364691
+        ParentId: 18033264439490340621
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5781,7 +6302,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7578105784629688300
+        Id: 14704090915539413943
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -5798,7 +6319,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6969505719832364691
+        ParentId: 18033264439490340621
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5829,7 +6350,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4017873734892415333
+        Id: 13373853211481554321
         Name: "Dirt"
         Transform {
           Location {
@@ -5843,7 +6364,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11276415905407605395
+        ParentId: 2509363588032435392
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5882,7 +6403,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13030591516572534145
+        Id: 4711779519012866691
         Name: "Outline Object"
         Transform {
           Location {
@@ -5895,17 +6416,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11276415905407605395
+        ParentId: 2509363588032435392
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 6969505719832364691
+              SubObjectId: 18033264439490340621
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -5915,8 +6436,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -5957,7 +6478,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5216086023246003382
+        Id: 4780166800055440710
         Name: "Area Trigger"
         Transform {
           Location {
@@ -5971,7 +6492,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 11276415905407605395
+        ParentId: 2509363588032435392
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -5995,7 +6516,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17328485148290720228
+        Id: 12790820953564187442
         Name: "Highlight"
         Transform {
           Location {
@@ -6010,7 +6531,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 11276415905407605395
+        ParentId: 2509363588032435392
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6054,7 +6575,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13954769063169564622
+        Id: 17823721151933356820
         Name: "Grown Effect"
         Transform {
           Location {
@@ -6068,7 +6589,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11276415905407605395
+        ParentId: 2509363588032435392
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -6131,12 +6652,79 @@ Assets {
         }
       }
       Objects {
-        Id: 4228352815430000115
+        Id: 6378209694897680996
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2509363588032435392
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 2079838008447144354
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: -325
-            Y: -800
+            X: -483.335083
+            Y: -209.898239
           }
           Rotation {
           }
@@ -6147,9 +6735,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 8333746855690761046
-        ChildIds: 1609589766127314042
-        ChildIds: 2054538172286965499
+        ChildIds: 7274277411977554288
+        ChildIds: 16818881553659810739
+        ChildIds: 16827214556120983107
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -6173,7 +6761,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8333746855690761046
+        Id: 7274277411977554288
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -6189,7 +6777,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4228352815430000115
+        ParentId: 2079838008447144354
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -6206,7 +6794,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1609589766127314042
+        Id: 16818881553659810739
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -6222,7 +6810,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 4228352815430000115
+        ParentId: 2079838008447144354
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6257,7 +6845,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2054538172286965499
+        Id: 16827214556120983107
         Name: "Client Geo"
         Transform {
           Location {
@@ -6272,13 +6860,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4228352815430000115
-        ChildIds: 986986651317795298
-        ChildIds: 18436849959595071134
-        ChildIds: 13371210887979097015
-        ChildIds: 8609769872007944158
-        ChildIds: 2536558382679225384
-        ChildIds: 1519822592046512808
+        ParentId: 2079838008447144354
+        ChildIds: 9931750612848602279
+        ChildIds: 980669968195090660
+        ChildIds: 10106298947082569997
+        ChildIds: 8623947243861924834
+        ChildIds: 8705312112235980065
+        ChildIds: 10456681475591309083
+        ChildIds: 12712441838305595557
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -6295,7 +6884,7 @@ Assets {
         }
       }
       Objects {
-        Id: 986986651317795298
+        Id: 9931750612848602279
         Name: "Frame"
         Transform {
           Location {
@@ -6311,11 +6900,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2054538172286965499
-        ChildIds: 1156600878817229548
-        ChildIds: 16700949354331383183
-        ChildIds: 6134289120493986685
-        ChildIds: 5492151683593278092
+        ParentId: 16827214556120983107
+        ChildIds: 9602162519639426641
+        ChildIds: 9436798292330304022
+        ChildIds: 13091982414383695402
+        ChildIds: 13952772550738390329
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6333,7 +6922,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1156600878817229548
+        Id: 9602162519639426641
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -6349,7 +6938,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 986986651317795298
+        ParentId: 9931750612848602279
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6380,7 +6969,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16700949354331383183
+        Id: 9436798292330304022
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -6398,7 +6987,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 986986651317795298
+        ParentId: 9931750612848602279
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6429,7 +7018,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6134289120493986685
+        Id: 13091982414383695402
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -6446,7 +7035,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 986986651317795298
+        ParentId: 9931750612848602279
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6477,7 +7066,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5492151683593278092
+        Id: 13952772550738390329
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -6494,7 +7083,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 986986651317795298
+        ParentId: 9931750612848602279
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6525,7 +7114,7 @@ Assets {
         }
       }
       Objects {
-        Id: 18436849959595071134
+        Id: 980669968195090660
         Name: "Dirt"
         Transform {
           Location {
@@ -6539,7 +7128,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2054538172286965499
+        ParentId: 16827214556120983107
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6578,7 +7167,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13371210887979097015
+        Id: 10106298947082569997
         Name: "Outline Object"
         Transform {
           Location {
@@ -6591,17 +7180,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2054538172286965499
+        ParentId: 16827214556120983107
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 986986651317795298
+              SubObjectId: 9931750612848602279
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -6611,8 +7200,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -6653,7 +7242,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8609769872007944158
+        Id: 8623947243861924834
         Name: "Area Trigger"
         Transform {
           Location {
@@ -6667,7 +7256,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 2054538172286965499
+        ParentId: 16827214556120983107
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -6691,7 +7280,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2536558382679225384
+        Id: 8705312112235980065
         Name: "Highlight"
         Transform {
           Location {
@@ -6706,7 +7295,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 2054538172286965499
+        ParentId: 16827214556120983107
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -6750,7 +7339,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1519822592046512808
+        Id: 10456681475591309083
         Name: "Grown Effect"
         Transform {
           Location {
@@ -6764,7 +7353,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2054538172286965499
+        ParentId: 16827214556120983107
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -6827,12 +7416,79 @@ Assets {
         }
       }
       Objects {
-        Id: 7812741767587870754
+        Id: 12712441838305595557
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16827214556120983107
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 10107549239936222739
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: -675
-            Y: -800
+            X: -833.335083
+            Y: -209.898239
           }
           Rotation {
           }
@@ -6843,9 +7499,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 849017250106135722
-        ChildIds: 13948125771896301340
-        ChildIds: 7458920157236997606
+        ChildIds: 14685544336890205739
+        ChildIds: 10690816983320504471
+        ChildIds: 18085368508802550630
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -6869,7 +7525,7 @@ Assets {
         }
       }
       Objects {
-        Id: 849017250106135722
+        Id: 14685544336890205739
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -6885,7 +7541,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7812741767587870754
+        ParentId: 10107549239936222739
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -6902,7 +7558,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13948125771896301340
+        Id: 10690816983320504471
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -6918,7 +7574,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 7812741767587870754
+        ParentId: 10107549239936222739
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6953,7 +7609,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7458920157236997606
+        Id: 18085368508802550630
         Name: "Client Geo"
         Transform {
           Location {
@@ -6968,13 +7624,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7812741767587870754
-        ChildIds: 10196371817315625523
-        ChildIds: 6263837599571202268
-        ChildIds: 4973357119401784293
-        ChildIds: 14343955666344663259
-        ChildIds: 1018746180390499347
-        ChildIds: 3654365540844946862
+        ParentId: 10107549239936222739
+        ChildIds: 2138697000432882327
+        ChildIds: 14265810453793779288
+        ChildIds: 16732521436798346838
+        ChildIds: 6858448446345632189
+        ChildIds: 2556116247208939366
+        ChildIds: 15026863382300104659
+        ChildIds: 11609570105225624591
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -6991,7 +7648,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10196371817315625523
+        Id: 2138697000432882327
         Name: "Frame"
         Transform {
           Location {
@@ -7007,11 +7664,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7458920157236997606
-        ChildIds: 17316782727870459774
-        ChildIds: 19981238209222495
-        ChildIds: 1753055680391697739
-        ChildIds: 11590364768962121528
+        ParentId: 18085368508802550630
+        ChildIds: 14780168480588412906
+        ChildIds: 2750986284771500341
+        ChildIds: 12756888213668285322
+        ChildIds: 12546630577874331876
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7029,7 +7686,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17316782727870459774
+        Id: 14780168480588412906
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -7045,7 +7702,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10196371817315625523
+        ParentId: 2138697000432882327
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7076,7 +7733,7 @@ Assets {
         }
       }
       Objects {
-        Id: 19981238209222495
+        Id: 2750986284771500341
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -7094,7 +7751,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10196371817315625523
+        ParentId: 2138697000432882327
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7125,7 +7782,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1753055680391697739
+        Id: 12756888213668285322
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -7142,7 +7799,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10196371817315625523
+        ParentId: 2138697000432882327
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7173,7 +7830,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11590364768962121528
+        Id: 12546630577874331876
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -7190,7 +7847,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10196371817315625523
+        ParentId: 2138697000432882327
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7221,7 +7878,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6263837599571202268
+        Id: 14265810453793779288
         Name: "Dirt"
         Transform {
           Location {
@@ -7235,7 +7892,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7458920157236997606
+        ParentId: 18085368508802550630
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -7274,7 +7931,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4973357119401784293
+        Id: 16732521436798346838
         Name: "Outline Object"
         Transform {
           Location {
@@ -7287,17 +7944,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7458920157236997606
+        ParentId: 18085368508802550630
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 10196371817315625523
+              SubObjectId: 2138697000432882327
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -7307,8 +7964,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -7349,7 +8006,7 @@ Assets {
         }
       }
       Objects {
-        Id: 14343955666344663259
+        Id: 6858448446345632189
         Name: "Area Trigger"
         Transform {
           Location {
@@ -7363,7 +8020,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 7458920157236997606
+        ParentId: 18085368508802550630
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -7387,7 +8044,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1018746180390499347
+        Id: 2556116247208939366
         Name: "Highlight"
         Transform {
           Location {
@@ -7402,7 +8059,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 7458920157236997606
+        ParentId: 18085368508802550630
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -7446,7 +8103,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3654365540844946862
+        Id: 15026863382300104659
         Name: "Grown Effect"
         Transform {
           Location {
@@ -7460,7 +8117,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7458920157236997606
+        ParentId: 18085368508802550630
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -7523,12 +8180,79 @@ Assets {
         }
       }
       Objects {
-        Id: 7207294256373692865
+        Id: 11609570105225624591
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18085368508802550630
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 13989308396857609725
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: -675
-            Y: -400
+            X: 566.664917
+            Y: -584.898254
           }
           Rotation {
           }
@@ -7539,9 +8263,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 6669521140176401691
-        ChildIds: 695564599548440645
-        ChildIds: 12573321266243301546
+        ChildIds: 11273461540431116375
+        ChildIds: 15956308664124408341
+        ChildIds: 13047414496854187537
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -7565,7 +8289,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6669521140176401691
+        Id: 11273461540431116375
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -7581,7 +8305,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7207294256373692865
+        ParentId: 13989308396857609725
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -7598,7 +8322,7 @@ Assets {
         }
       }
       Objects {
-        Id: 695564599548440645
+        Id: 15956308664124408341
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -7614,7 +8338,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 7207294256373692865
+        ParentId: 13989308396857609725
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7649,7 +8373,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12573321266243301546
+        Id: 13047414496854187537
         Name: "Client Geo"
         Transform {
           Location {
@@ -7664,13 +8388,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7207294256373692865
-        ChildIds: 15776214367278929320
-        ChildIds: 1533092414457792001
-        ChildIds: 3372518312308675244
-        ChildIds: 16694349157743772380
-        ChildIds: 317418616582973224
-        ChildIds: 16080055524511332456
+        ParentId: 13989308396857609725
+        ChildIds: 10024506721836957443
+        ChildIds: 13163491821876041746
+        ChildIds: 12431674064005640720
+        ChildIds: 1344179732515233211
+        ChildIds: 14460405438635913360
+        ChildIds: 11512281123142040078
+        ChildIds: 5265976454993896648
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -7687,7 +8412,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15776214367278929320
+        Id: 10024506721836957443
         Name: "Frame"
         Transform {
           Location {
@@ -7703,11 +8428,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12573321266243301546
-        ChildIds: 8110987680032683815
-        ChildIds: 6908268696918860963
-        ChildIds: 5848398979766822626
-        ChildIds: 5196520600088664512
+        ParentId: 13047414496854187537
+        ChildIds: 9696885154198160524
+        ChildIds: 16712130800718623494
+        ChildIds: 7116509053921519837
+        ChildIds: 5069870072265693657
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7725,7 +8450,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8110987680032683815
+        Id: 9696885154198160524
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -7741,7 +8466,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15776214367278929320
+        ParentId: 10024506721836957443
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7772,7 +8497,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6908268696918860963
+        Id: 16712130800718623494
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -7790,7 +8515,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15776214367278929320
+        ParentId: 10024506721836957443
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7821,7 +8546,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5848398979766822626
+        Id: 7116509053921519837
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -7838,7 +8563,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15776214367278929320
+        ParentId: 10024506721836957443
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7869,7 +8594,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5196520600088664512
+        Id: 5069870072265693657
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -7886,7 +8611,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15776214367278929320
+        ParentId: 10024506721836957443
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -7917,7 +8642,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1533092414457792001
+        Id: 13163491821876041746
         Name: "Dirt"
         Transform {
           Location {
@@ -7931,7 +8656,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12573321266243301546
+        ParentId: 13047414496854187537
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -7970,7 +8695,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3372518312308675244
+        Id: 12431674064005640720
         Name: "Outline Object"
         Transform {
           Location {
@@ -7983,17 +8708,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12573321266243301546
+        ParentId: 13047414496854187537
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 15776214367278929320
+              SubObjectId: 10024506721836957443
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -8003,8 +8728,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -8045,7 +8770,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16694349157743772380
+        Id: 1344179732515233211
         Name: "Area Trigger"
         Transform {
           Location {
@@ -8059,7 +8784,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 12573321266243301546
+        ParentId: 13047414496854187537
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -8083,7 +8808,7 @@ Assets {
         }
       }
       Objects {
-        Id: 317418616582973224
+        Id: 14460405438635913360
         Name: "Highlight"
         Transform {
           Location {
@@ -8098,7 +8823,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 12573321266243301546
+        ParentId: 13047414496854187537
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -8142,7 +8867,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16080055524511332456
+        Id: 11512281123142040078
         Name: "Grown Effect"
         Transform {
           Location {
@@ -8156,7 +8881,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12573321266243301546
+        ParentId: 13047414496854187537
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -8219,11 +8944,79 @@ Assets {
         }
       }
       Objects {
-        Id: 9798722872186889339
+        Id: 5265976454993896648
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13047414496854187537
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 2944590567906763110
         Name: "Crop Plots - Crop Bed"
         Transform {
           Location {
-            X: -675
+            X: 216.664917
+            Y: -584.898254
           }
           Rotation {
           }
@@ -8234,9 +9027,9 @@ Assets {
           }
         }
         ParentId: 17377650015310344687
-        ChildIds: 3415430682766472285
-        ChildIds: 3626387231529841714
-        ChildIds: 12614683799503340726
+        ChildIds: 1999793123543691686
+        ChildIds: 16644206002828620313
+        ChildIds: 6947152443102672654
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -8260,7 +9053,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3415430682766472285
+        Id: 1999793123543691686
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -8276,7 +9069,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9798722872186889339
+        ParentId: 2944590567906763110
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -8293,7 +9086,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3626387231529841714
+        Id: 16644206002828620313
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -8309,7 +9102,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 9798722872186889339
+        ParentId: 2944590567906763110
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -8344,7 +9137,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12614683799503340726
+        Id: 6947152443102672654
         Name: "Client Geo"
         Transform {
           Location {
@@ -8359,13 +9152,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9798722872186889339
-        ChildIds: 1227827059355294758
-        ChildIds: 243688310635405551
-        ChildIds: 493726029425422080
-        ChildIds: 852370284152903119
-        ChildIds: 5031969749175756714
-        ChildIds: 5908453274257586111
+        ParentId: 2944590567906763110
+        ChildIds: 725056118768631650
+        ChildIds: 1468743059782818729
+        ChildIds: 3003243189414397502
+        ChildIds: 18374260926662025344
+        ChildIds: 6714008349795035275
+        ChildIds: 16369903909612300390
+        ChildIds: 17204081124176192737
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -8382,7 +9176,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1227827059355294758
+        Id: 725056118768631650
         Name: "Frame"
         Transform {
           Location {
@@ -8398,11 +9192,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12614683799503340726
-        ChildIds: 1895023542459870624
-        ChildIds: 2552352498202560127
-        ChildIds: 15179310661198318750
-        ChildIds: 11536932990301431303
+        ParentId: 6947152443102672654
+        ChildIds: 6121606560238957198
+        ChildIds: 13465213115805739994
+        ChildIds: 11786373496029534457
+        ChildIds: 12508323762222640209
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -8420,7 +9214,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1895023542459870624
+        Id: 6121606560238957198
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -8436,7 +9230,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1227827059355294758
+        ParentId: 725056118768631650
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -8467,7 +9261,7 @@ Assets {
         }
       }
       Objects {
-        Id: 2552352498202560127
+        Id: 13465213115805739994
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -8485,7 +9279,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1227827059355294758
+        ParentId: 725056118768631650
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -8516,7 +9310,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15179310661198318750
+        Id: 11786373496029534457
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -8533,7 +9327,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1227827059355294758
+        ParentId: 725056118768631650
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -8564,7 +9358,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11536932990301431303
+        Id: 12508323762222640209
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -8581,7 +9375,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1227827059355294758
+        ParentId: 725056118768631650
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -8612,7 +9406,7 @@ Assets {
         }
       }
       Objects {
-        Id: 243688310635405551
+        Id: 1468743059782818729
         Name: "Dirt"
         Transform {
           Location {
@@ -8626,7 +9420,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12614683799503340726
+        ParentId: 6947152443102672654
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -8665,7 +9459,7 @@ Assets {
         }
       }
       Objects {
-        Id: 493726029425422080
+        Id: 3003243189414397502
         Name: "Outline Object"
         Transform {
           Location {
@@ -8678,17 +9472,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12614683799503340726
+        ParentId: 6947152443102672654
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 1227827059355294758
+              SubObjectId: 725056118768631650
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574421644
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -8698,8 +9492,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -8740,7 +9534,7 @@ Assets {
         }
       }
       Objects {
-        Id: 852370284152903119
+        Id: 18374260926662025344
         Name: "Area Trigger"
         Transform {
           Location {
@@ -8754,7 +9548,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 12614683799503340726
+        ParentId: 6947152443102672654
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -8778,7 +9572,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5031969749175756714
+        Id: 6714008349795035275
         Name: "Highlight"
         Transform {
           Location {
@@ -8793,7 +9587,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 12614683799503340726
+        ParentId: 6947152443102672654
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -8837,7 +9631,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5908453274257586111
+        Id: 16369903909612300390
         Name: "Grown Effect"
         Transform {
           Location {
@@ -8851,7 +9645,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12614683799503340726
+        ParentId: 6947152443102672654
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -8911,6 +9705,6185 @@ Assets {
         }
         Relevance {
           Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 17204081124176192737
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6947152443102672654
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 5751070821287893134
+        Name: "Crop Plots - Crop Bed"
+        Transform {
+          Location {
+            X: -133.335083
+            Y: -584.898254
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17377650015310344687
+        ChildIds: 127977679982562999
+        ChildIds: 12909132605847999320
+        ChildIds: 5662626544221440809
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:id"
+            Int: 13
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 127977679982562999
+        Name: "Spawned Crop"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: 37.8658447
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5751070821287893134
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 12909132605847999320
+        Name: "Crop Bed Collider"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: -1.30361938
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.98990655
+            Y: 3.46667528
+            Z: 0.149453163
+          }
+        }
+        ParentId: 5751070821287893134
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
+          DisableReceiveDecals: true
+          DisableAngularMotionBlur: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 5662626544221440809
+        Name: "Client Geo"
+        Transform {
+          Location {
+            X: -200
+            Y: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5751070821287893134
+        ChildIds: 15240859518093824933
+        ChildIds: 14895048071395293391
+        ChildIds: 5533238920872058541
+        ChildIds: 5972687207058021935
+        ChildIds: 4376984137389916654
+        ChildIds: 10497601560943680248
+        ChildIds: 15914120330860335586
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 15240859518093824933
+        Name: "Frame"
+        Transform {
+          Location {
+            X: 1.85988617
+            Y: -1.83526611
+            Z: -34.0761108
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5662626544221440809
+        ChildIds: 3760699241995606775
+        ChildIds: 12391461879354641176
+        ChildIds: 13171865406282684054
+        ChildIds: 18378886711305016935
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3760699241995606775
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -148.294678
+            Y: 148.189392
+          }
+          Rotation {
+            Roll: 89.9999771
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15240859518093824933
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 12391461879354641176
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15240859518093824933
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 13171865406282684054
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -147.985565
+            Y: 148.140076
+          }
+          Rotation {
+            Yaw: -89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15240859518093824933
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 18378886711305016935
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Yaw: -179.999954
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15240859518093824933
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 14895048071395293391
+        Name: "Dirt"
+        Transform {
+          Location {
+            Z: 0.0169563293
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.7381916
+            Y: 3
+            Z: 1
+          }
+        }
+        ParentId: 5662626544221440809
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9885329182473979133
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 285290298868226643
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 5533238920872058541
+        Name: "Outline Object"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5662626544221440809
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Object To Outline"
+            ObjectReference {
+              SubObjectId: 15240859518093824933
+            }
+          }
+          Overrides {
+            Name: "bp:Thickness"
+            Float: 0.574421644
+          }
+          Overrides {
+            Name: "bp:Dynamic Thickness"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Color A"
+            Color {
+              R: 0.994000077
+              G: 0.978222191
+              A: 0.325000018
+            }
+          }
+          Overrides {
+            Name: "bp:Hierarchy Discovery Depth"
+            Int: 2
+          }
+          Overrides {
+            Name: "bp:Multi-Color"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Max Distance Thickness"
+            Float: 0.162790269
+          }
+          Overrides {
+            Name: "bp:Enabled"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12350751209618194571
+          }
+          TeamSettings {
+          }
+        }
+      }
+      Objects {
+        Id: 5972687207058021935
+        Name: "Area Trigger"
+        Transform {
+          Location {
+            Z: 90.1924667
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.32391667
+            Y: 3.73364282
+            Z: 1.9253453
+          }
+        }
+        ParentId: 5662626544221440809
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 4376984137389916654
+        Name: "Highlight"
+        Transform {
+          Location {
+            X: 3.56599426
+            Z: 55.3369522
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.02223825
+            Y: 3.50861764
+            Z: 2.72583413
+          }
+        }
+        ParentId: 5662626544221440809
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12511001409884349590
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 756137588379761240
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 10497601560943680248
+        Name: "Grown Effect"
+        Transform {
+          Location {
+            Z: 52.6236267
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.73128438
+            Y: 3.30934596
+            Z: 1
+          }
+        }
+        ParentId: 5662626544221440809
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 2.72034168
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 4.65142775
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 2.60236025
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0.83596611
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.522161603
+          }
+          Overrides {
+            Name: "bp:Curl Variance"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 143483960029989984
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 15914120330860335586
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5662626544221440809
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 8719377684516136051
+        Name: "Crop Plots - Crop Bed"
+        Transform {
+          Location {
+            X: -483.335083
+            Y: -584.898254
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17377650015310344687
+        ChildIds: 9033970666124334152
+        ChildIds: 7015036447998906119
+        ChildIds: 5480192431523509639
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:id"
+            Int: 14
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 9033970666124334152
+        Name: "Spawned Crop"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: 37.8658447
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8719377684516136051
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 7015036447998906119
+        Name: "Crop Bed Collider"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: -1.30361938
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.98990655
+            Y: 3.46667528
+            Z: 0.149453163
+          }
+        }
+        ParentId: 8719377684516136051
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
+          DisableReceiveDecals: true
+          DisableAngularMotionBlur: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 5480192431523509639
+        Name: "Client Geo"
+        Transform {
+          Location {
+            X: -200
+            Y: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8719377684516136051
+        ChildIds: 14026119389030875222
+        ChildIds: 14345758031049346259
+        ChildIds: 6930840211447168350
+        ChildIds: 10738561623026839906
+        ChildIds: 12041609901933531014
+        ChildIds: 14858505228534644428
+        ChildIds: 1133509057688190988
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 14026119389030875222
+        Name: "Frame"
+        Transform {
+          Location {
+            X: 1.85988617
+            Y: -1.83526611
+            Z: -34.0761108
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5480192431523509639
+        ChildIds: 16538722038013730336
+        ChildIds: 317688545486680137
+        ChildIds: 8621664712560106937
+        ChildIds: 6598352477149131070
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 16538722038013730336
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -148.294678
+            Y: 148.189392
+          }
+          Rotation {
+            Roll: 89.9999771
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14026119389030875222
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 317688545486680137
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14026119389030875222
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 8621664712560106937
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -147.985565
+            Y: 148.140076
+          }
+          Rotation {
+            Yaw: -89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14026119389030875222
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 6598352477149131070
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Yaw: -179.999954
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14026119389030875222
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 14345758031049346259
+        Name: "Dirt"
+        Transform {
+          Location {
+            Z: 0.0169563293
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.7381916
+            Y: 3
+            Z: 1
+          }
+        }
+        ParentId: 5480192431523509639
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9885329182473979133
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 285290298868226643
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 6930840211447168350
+        Name: "Outline Object"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5480192431523509639
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Object To Outline"
+            ObjectReference {
+              SubObjectId: 14026119389030875222
+            }
+          }
+          Overrides {
+            Name: "bp:Thickness"
+            Float: 0.574421644
+          }
+          Overrides {
+            Name: "bp:Dynamic Thickness"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Color A"
+            Color {
+              R: 0.994000077
+              G: 0.978222191
+              A: 0.325000018
+            }
+          }
+          Overrides {
+            Name: "bp:Hierarchy Discovery Depth"
+            Int: 2
+          }
+          Overrides {
+            Name: "bp:Multi-Color"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Max Distance Thickness"
+            Float: 0.162790269
+          }
+          Overrides {
+            Name: "bp:Enabled"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12350751209618194571
+          }
+          TeamSettings {
+          }
+        }
+      }
+      Objects {
+        Id: 10738561623026839906
+        Name: "Area Trigger"
+        Transform {
+          Location {
+            Z: 90.1924667
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.32391667
+            Y: 3.73364282
+            Z: 1.9253453
+          }
+        }
+        ParentId: 5480192431523509639
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 12041609901933531014
+        Name: "Highlight"
+        Transform {
+          Location {
+            X: 3.56599426
+            Z: 55.3369522
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.02223825
+            Y: 3.50861764
+            Z: 2.72583413
+          }
+        }
+        ParentId: 5480192431523509639
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12511001409884349590
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 756137588379761240
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 14858505228534644428
+        Name: "Grown Effect"
+        Transform {
+          Location {
+            Z: 52.6236267
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.73128438
+            Y: 3.30934596
+            Z: 1
+          }
+        }
+        ParentId: 5480192431523509639
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 2.72034168
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 4.65142775
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 2.60236025
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0.83596611
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.522161603
+          }
+          Overrides {
+            Name: "bp:Curl Variance"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 143483960029989984
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 1133509057688190988
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5480192431523509639
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 3417831803165114524
+        Name: "Crop Plots - Crop Bed"
+        Transform {
+          Location {
+            X: -833.335083
+            Y: -584.898254
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17377650015310344687
+        ChildIds: 2479014214827474279
+        ChildIds: 12294122894786511296
+        ChildIds: 2950714067476416246
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:id"
+            Int: 15
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 2479014214827474279
+        Name: "Spawned Crop"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: 37.8658447
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3417831803165114524
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 12294122894786511296
+        Name: "Crop Bed Collider"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: -1.30361938
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.98990655
+            Y: 3.46667528
+            Z: 0.149453163
+          }
+        }
+        ParentId: 3417831803165114524
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
+          DisableReceiveDecals: true
+          DisableAngularMotionBlur: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 2950714067476416246
+        Name: "Client Geo"
+        Transform {
+          Location {
+            X: -200
+            Y: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3417831803165114524
+        ChildIds: 13360688396708144578
+        ChildIds: 9290961828293333198
+        ChildIds: 538570800931837873
+        ChildIds: 271305667587125230
+        ChildIds: 16964524905268697279
+        ChildIds: 2669184616202795468
+        ChildIds: 6777188806333272152
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 13360688396708144578
+        Name: "Frame"
+        Transform {
+          Location {
+            X: 1.85988617
+            Y: -1.83526611
+            Z: -34.0761108
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2950714067476416246
+        ChildIds: 14888555358647553151
+        ChildIds: 4516193352096115588
+        ChildIds: 7764264037654894719
+        ChildIds: 14843473705722782491
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 14888555358647553151
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -148.294678
+            Y: 148.189392
+          }
+          Rotation {
+            Roll: 89.9999771
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13360688396708144578
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 4516193352096115588
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13360688396708144578
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 7764264037654894719
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -147.985565
+            Y: 148.140076
+          }
+          Rotation {
+            Yaw: -89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13360688396708144578
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 14843473705722782491
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Yaw: -179.999954
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13360688396708144578
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 9290961828293333198
+        Name: "Dirt"
+        Transform {
+          Location {
+            Z: 0.0169563293
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.7381916
+            Y: 3
+            Z: 1
+          }
+        }
+        ParentId: 2950714067476416246
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9885329182473979133
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 285290298868226643
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 538570800931837873
+        Name: "Outline Object"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2950714067476416246
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Object To Outline"
+            ObjectReference {
+              SubObjectId: 13360688396708144578
+            }
+          }
+          Overrides {
+            Name: "bp:Thickness"
+            Float: 0.574421644
+          }
+          Overrides {
+            Name: "bp:Dynamic Thickness"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Color A"
+            Color {
+              R: 0.994000077
+              G: 0.978222191
+              A: 0.325000018
+            }
+          }
+          Overrides {
+            Name: "bp:Hierarchy Discovery Depth"
+            Int: 2
+          }
+          Overrides {
+            Name: "bp:Multi-Color"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Max Distance Thickness"
+            Float: 0.162790269
+          }
+          Overrides {
+            Name: "bp:Enabled"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12350751209618194571
+          }
+          TeamSettings {
+          }
+        }
+      }
+      Objects {
+        Id: 271305667587125230
+        Name: "Area Trigger"
+        Transform {
+          Location {
+            Z: 90.1924667
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.32391667
+            Y: 3.73364282
+            Z: 1.9253453
+          }
+        }
+        ParentId: 2950714067476416246
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 16964524905268697279
+        Name: "Highlight"
+        Transform {
+          Location {
+            X: 3.56599426
+            Z: 55.3369522
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.02223825
+            Y: 3.50861764
+            Z: 2.72583413
+          }
+        }
+        ParentId: 2950714067476416246
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12511001409884349590
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 756137588379761240
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 2669184616202795468
+        Name: "Grown Effect"
+        Transform {
+          Location {
+            Z: 52.6236267
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.73128438
+            Y: 3.30934596
+            Z: 1
+          }
+        }
+        ParentId: 2950714067476416246
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 2.72034168
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 4.65142775
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 2.60236025
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0.83596611
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.522161603
+          }
+          Overrides {
+            Name: "bp:Curl Variance"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 143483960029989984
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 6777188806333272152
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2950714067476416246
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 8193423138181166239
+        Name: "Crop Plots - Crop Bed"
+        Transform {
+          Location {
+            X: 566.664917
+            Y: -959.898254
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17377650015310344687
+        ChildIds: 11082066725195840047
+        ChildIds: 5316450274494346118
+        ChildIds: 6742697509391960090
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:id"
+            Int: 16
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 11082066725195840047
+        Name: "Spawned Crop"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: 37.8658447
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8193423138181166239
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 5316450274494346118
+        Name: "Crop Bed Collider"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: -1.30361938
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.98990655
+            Y: 3.46667528
+            Z: 0.149453163
+          }
+        }
+        ParentId: 8193423138181166239
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
+          DisableReceiveDecals: true
+          DisableAngularMotionBlur: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 6742697509391960090
+        Name: "Client Geo"
+        Transform {
+          Location {
+            X: -200
+            Y: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8193423138181166239
+        ChildIds: 15662543446694665697
+        ChildIds: 15093697539025987401
+        ChildIds: 5759199785345503013
+        ChildIds: 17209815063676387488
+        ChildIds: 12412711467915384339
+        ChildIds: 8785557464216864096
+        ChildIds: 17426581298113248956
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 15662543446694665697
+        Name: "Frame"
+        Transform {
+          Location {
+            X: 1.85988617
+            Y: -1.83526611
+            Z: -34.0761108
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6742697509391960090
+        ChildIds: 1349631999001643844
+        ChildIds: 14467268477047126199
+        ChildIds: 8733218901668117831
+        ChildIds: 266130631726332645
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 1349631999001643844
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -148.294678
+            Y: 148.189392
+          }
+          Rotation {
+            Roll: 89.9999771
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15662543446694665697
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 14467268477047126199
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15662543446694665697
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 8733218901668117831
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -147.985565
+            Y: 148.140076
+          }
+          Rotation {
+            Yaw: -89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15662543446694665697
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 266130631726332645
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Yaw: -179.999954
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15662543446694665697
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 15093697539025987401
+        Name: "Dirt"
+        Transform {
+          Location {
+            Z: 0.0169563293
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.7381916
+            Y: 3
+            Z: 1
+          }
+        }
+        ParentId: 6742697509391960090
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9885329182473979133
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 285290298868226643
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 5759199785345503013
+        Name: "Outline Object"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6742697509391960090
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Object To Outline"
+            ObjectReference {
+              SubObjectId: 15662543446694665697
+            }
+          }
+          Overrides {
+            Name: "bp:Thickness"
+            Float: 0.574421644
+          }
+          Overrides {
+            Name: "bp:Dynamic Thickness"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Color A"
+            Color {
+              R: 0.994000077
+              G: 0.978222191
+              A: 0.325000018
+            }
+          }
+          Overrides {
+            Name: "bp:Hierarchy Discovery Depth"
+            Int: 2
+          }
+          Overrides {
+            Name: "bp:Multi-Color"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Max Distance Thickness"
+            Float: 0.162790269
+          }
+          Overrides {
+            Name: "bp:Enabled"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12350751209618194571
+          }
+          TeamSettings {
+          }
+        }
+      }
+      Objects {
+        Id: 17209815063676387488
+        Name: "Area Trigger"
+        Transform {
+          Location {
+            Z: 90.1924667
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.32391667
+            Y: 3.73364282
+            Z: 1.9253453
+          }
+        }
+        ParentId: 6742697509391960090
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 12412711467915384339
+        Name: "Highlight"
+        Transform {
+          Location {
+            X: 3.56599426
+            Z: 55.3369522
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.02223825
+            Y: 3.50861764
+            Z: 2.72583413
+          }
+        }
+        ParentId: 6742697509391960090
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12511001409884349590
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 756137588379761240
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 8785557464216864096
+        Name: "Grown Effect"
+        Transform {
+          Location {
+            Z: 52.6236267
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.73128438
+            Y: 3.30934596
+            Z: 1
+          }
+        }
+        ParentId: 6742697509391960090
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 2.72034168
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 4.65142775
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 2.60236025
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0.83596611
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.522161603
+          }
+          Overrides {
+            Name: "bp:Curl Variance"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 143483960029989984
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 17426581298113248956
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6742697509391960090
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 445720425664506041
+        Name: "Crop Plots - Crop Bed"
+        Transform {
+          Location {
+            X: 216.664917
+            Y: -959.898254
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17377650015310344687
+        ChildIds: 5535928040379458089
+        ChildIds: 18251311478045036959
+        ChildIds: 8861411927803122240
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:id"
+            Int: 17
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 5535928040379458089
+        Name: "Spawned Crop"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: 37.8658447
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 445720425664506041
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 18251311478045036959
+        Name: "Crop Bed Collider"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: -1.30361938
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.98990655
+            Y: 3.46667528
+            Z: 0.149453163
+          }
+        }
+        ParentId: 445720425664506041
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
+          DisableReceiveDecals: true
+          DisableAngularMotionBlur: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 8861411927803122240
+        Name: "Client Geo"
+        Transform {
+          Location {
+            X: -200
+            Y: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 445720425664506041
+        ChildIds: 18387869252152309704
+        ChildIds: 18199373379024352828
+        ChildIds: 16846808724331880142
+        ChildIds: 14660291583519542693
+        ChildIds: 7046295106937787049
+        ChildIds: 6840472374195103765
+        ChildIds: 3521586668719021936
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 18387869252152309704
+        Name: "Frame"
+        Transform {
+          Location {
+            X: 1.85988617
+            Y: -1.83526611
+            Z: -34.0761108
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8861411927803122240
+        ChildIds: 7719028039463045147
+        ChildIds: 9162619336793601746
+        ChildIds: 583686852512512620
+        ChildIds: 13882561409605498003
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 7719028039463045147
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -148.294678
+            Y: 148.189392
+          }
+          Rotation {
+            Roll: 89.9999771
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18387869252152309704
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 9162619336793601746
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18387869252152309704
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 583686852512512620
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -147.985565
+            Y: 148.140076
+          }
+          Rotation {
+            Yaw: -89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18387869252152309704
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 13882561409605498003
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Yaw: -179.999954
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18387869252152309704
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 18199373379024352828
+        Name: "Dirt"
+        Transform {
+          Location {
+            Z: 0.0169563293
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.7381916
+            Y: 3
+            Z: 1
+          }
+        }
+        ParentId: 8861411927803122240
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9885329182473979133
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 285290298868226643
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 16846808724331880142
+        Name: "Outline Object"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8861411927803122240
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Object To Outline"
+            ObjectReference {
+              SubObjectId: 18387869252152309704
+            }
+          }
+          Overrides {
+            Name: "bp:Thickness"
+            Float: 0.574421644
+          }
+          Overrides {
+            Name: "bp:Dynamic Thickness"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Color A"
+            Color {
+              R: 0.994000077
+              G: 0.978222191
+              A: 0.325000018
+            }
+          }
+          Overrides {
+            Name: "bp:Hierarchy Discovery Depth"
+            Int: 2
+          }
+          Overrides {
+            Name: "bp:Multi-Color"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Max Distance Thickness"
+            Float: 0.162790269
+          }
+          Overrides {
+            Name: "bp:Enabled"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12350751209618194571
+          }
+          TeamSettings {
+          }
+        }
+      }
+      Objects {
+        Id: 14660291583519542693
+        Name: "Area Trigger"
+        Transform {
+          Location {
+            Z: 90.1924667
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.32391667
+            Y: 3.73364282
+            Z: 1.9253453
+          }
+        }
+        ParentId: 8861411927803122240
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 7046295106937787049
+        Name: "Highlight"
+        Transform {
+          Location {
+            X: 3.56599426
+            Z: 55.3369522
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.02223825
+            Y: 3.50861764
+            Z: 2.72583413
+          }
+        }
+        ParentId: 8861411927803122240
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12511001409884349590
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 756137588379761240
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 6840472374195103765
+        Name: "Grown Effect"
+        Transform {
+          Location {
+            Z: 52.6236267
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.73128438
+            Y: 3.30934596
+            Z: 1
+          }
+        }
+        ParentId: 8861411927803122240
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 2.72034168
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 4.65142775
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 2.60236025
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0.83596611
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.522161603
+          }
+          Overrides {
+            Name: "bp:Curl Variance"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 143483960029989984
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 3521586668719021936
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8861411927803122240
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 8366552813769094293
+        Name: "Crop Plots - Crop Bed"
+        Transform {
+          Location {
+            X: -133.335083
+            Y: -959.898254
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17377650015310344687
+        ChildIds: 11941541295922270169
+        ChildIds: 17551840974866789705
+        ChildIds: 7084003232698297558
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:id"
+            Int: 18
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 11941541295922270169
+        Name: "Spawned Crop"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: 37.8658447
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8366552813769094293
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 17551840974866789705
+        Name: "Crop Bed Collider"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: -1.30361938
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.98990655
+            Y: 3.46667528
+            Z: 0.149453163
+          }
+        }
+        ParentId: 8366552813769094293
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
+          DisableReceiveDecals: true
+          DisableAngularMotionBlur: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 7084003232698297558
+        Name: "Client Geo"
+        Transform {
+          Location {
+            X: -200
+            Y: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8366552813769094293
+        ChildIds: 1522226492376708428
+        ChildIds: 662181220647339412
+        ChildIds: 6961844137127679164
+        ChildIds: 488649660433300706
+        ChildIds: 1386453130198873787
+        ChildIds: 1787147481273129459
+        ChildIds: 7506029693237695857
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 1522226492376708428
+        Name: "Frame"
+        Transform {
+          Location {
+            X: 1.85988617
+            Y: -1.83526611
+            Z: -34.0761108
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7084003232698297558
+        ChildIds: 12842959458099280508
+        ChildIds: 10634132309161960030
+        ChildIds: 378982752745581971
+        ChildIds: 6517778528671651579
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 12842959458099280508
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -148.294678
+            Y: 148.189392
+          }
+          Rotation {
+            Roll: 89.9999771
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1522226492376708428
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 10634132309161960030
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1522226492376708428
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 378982752745581971
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -147.985565
+            Y: 148.140076
+          }
+          Rotation {
+            Yaw: -89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1522226492376708428
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 6517778528671651579
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Yaw: -179.999954
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1522226492376708428
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 662181220647339412
+        Name: "Dirt"
+        Transform {
+          Location {
+            Z: 0.0169563293
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.7381916
+            Y: 3
+            Z: 1
+          }
+        }
+        ParentId: 7084003232698297558
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9885329182473979133
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 285290298868226643
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 6961844137127679164
+        Name: "Outline Object"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7084003232698297558
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Object To Outline"
+            ObjectReference {
+              SubObjectId: 1522226492376708428
+            }
+          }
+          Overrides {
+            Name: "bp:Thickness"
+            Float: 0.574421644
+          }
+          Overrides {
+            Name: "bp:Dynamic Thickness"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Color A"
+            Color {
+              R: 0.994000077
+              G: 0.978222191
+              A: 0.325000018
+            }
+          }
+          Overrides {
+            Name: "bp:Hierarchy Discovery Depth"
+            Int: 2
+          }
+          Overrides {
+            Name: "bp:Multi-Color"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Max Distance Thickness"
+            Float: 0.162790269
+          }
+          Overrides {
+            Name: "bp:Enabled"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12350751209618194571
+          }
+          TeamSettings {
+          }
+        }
+      }
+      Objects {
+        Id: 488649660433300706
+        Name: "Area Trigger"
+        Transform {
+          Location {
+            Z: 90.1924667
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.32391667
+            Y: 3.73364282
+            Z: 1.9253453
+          }
+        }
+        ParentId: 7084003232698297558
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 1386453130198873787
+        Name: "Highlight"
+        Transform {
+          Location {
+            X: 3.56599426
+            Z: 55.3369522
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.02223825
+            Y: 3.50861764
+            Z: 2.72583413
+          }
+        }
+        ParentId: 7084003232698297558
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12511001409884349590
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 756137588379761240
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 1787147481273129459
+        Name: "Grown Effect"
+        Transform {
+          Location {
+            Z: 52.6236267
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.73128438
+            Y: 3.30934596
+            Z: 1
+          }
+        }
+        ParentId: 7084003232698297558
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 2.72034168
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 4.65142775
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 2.60236025
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0.83596611
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.522161603
+          }
+          Overrides {
+            Name: "bp:Curl Variance"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 143483960029989984
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 7506029693237695857
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7084003232698297558
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 12281764122263450010
+        Name: "Crop Plots - Crop Bed"
+        Transform {
+          Location {
+            X: -483.335083
+            Y: -959.898254
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17377650015310344687
+        ChildIds: 15187997313764408759
+        ChildIds: 15149747509243644793
+        ChildIds: 7245087790996522028
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:id"
+            Int: 19
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 15187997313764408759
+        Name: "Spawned Crop"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: 37.8658447
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12281764122263450010
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 15149747509243644793
+        Name: "Crop Bed Collider"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: -1.30361938
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.98990655
+            Y: 3.46667528
+            Z: 0.149453163
+          }
+        }
+        ParentId: 12281764122263450010
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
+          DisableReceiveDecals: true
+          DisableAngularMotionBlur: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 7245087790996522028
+        Name: "Client Geo"
+        Transform {
+          Location {
+            X: -200
+            Y: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12281764122263450010
+        ChildIds: 14603828393039242238
+        ChildIds: 15311651828192154239
+        ChildIds: 17084535235897932282
+        ChildIds: 2561518459213584135
+        ChildIds: 3993104378841066709
+        ChildIds: 416182502286298794
+        ChildIds: 10390183954667559046
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 14603828393039242238
+        Name: "Frame"
+        Transform {
+          Location {
+            X: 1.85988617
+            Y: -1.83526611
+            Z: -34.0761108
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7245087790996522028
+        ChildIds: 1739857865364594261
+        ChildIds: 10047768681563417342
+        ChildIds: 109840992176325998
+        ChildIds: 5973022863198895714
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 1739857865364594261
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -148.294678
+            Y: 148.189392
+          }
+          Rotation {
+            Roll: 89.9999771
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14603828393039242238
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 10047768681563417342
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14603828393039242238
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 109840992176325998
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -147.985565
+            Y: 148.140076
+          }
+          Rotation {
+            Yaw: -89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14603828393039242238
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 5973022863198895714
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Yaw: -179.999954
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14603828393039242238
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 15311651828192154239
+        Name: "Dirt"
+        Transform {
+          Location {
+            Z: 0.0169563293
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.7381916
+            Y: 3
+            Z: 1
+          }
+        }
+        ParentId: 7245087790996522028
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9885329182473979133
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 285290298868226643
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 17084535235897932282
+        Name: "Outline Object"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7245087790996522028
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Object To Outline"
+            ObjectReference {
+              SubObjectId: 14603828393039242238
+            }
+          }
+          Overrides {
+            Name: "bp:Thickness"
+            Float: 0.574421644
+          }
+          Overrides {
+            Name: "bp:Dynamic Thickness"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Color A"
+            Color {
+              R: 0.994000077
+              G: 0.978222191
+              A: 0.325000018
+            }
+          }
+          Overrides {
+            Name: "bp:Hierarchy Discovery Depth"
+            Int: 2
+          }
+          Overrides {
+            Name: "bp:Multi-Color"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Max Distance Thickness"
+            Float: 0.162790269
+          }
+          Overrides {
+            Name: "bp:Enabled"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12350751209618194571
+          }
+          TeamSettings {
+          }
+        }
+      }
+      Objects {
+        Id: 2561518459213584135
+        Name: "Area Trigger"
+        Transform {
+          Location {
+            Z: 90.1924667
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.32391667
+            Y: 3.73364282
+            Z: 1.9253453
+          }
+        }
+        ParentId: 7245087790996522028
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 3993104378841066709
+        Name: "Highlight"
+        Transform {
+          Location {
+            X: 3.56599426
+            Z: 55.3369522
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.02223825
+            Y: 3.50861764
+            Z: 2.72583413
+          }
+        }
+        ParentId: 7245087790996522028
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12511001409884349590
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 756137588379761240
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 416182502286298794
+        Name: "Grown Effect"
+        Transform {
+          Location {
+            Z: 52.6236267
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.73128438
+            Y: 3.30934596
+            Z: 1
+          }
+        }
+        ParentId: 7245087790996522028
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 2.72034168
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 4.65142775
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 2.60236025
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0.83596611
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.522161603
+          }
+          Overrides {
+            Name: "bp:Curl Variance"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 143483960029989984
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 10390183954667559046
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7245087790996522028
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 10382507086805871347
+        Name: "Crop Plots - Crop Bed"
+        Transform {
+          Location {
+            X: -833.335083
+            Y: -959.898254
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17377650015310344687
+        ChildIds: 9374624801430555842
+        ChildIds: 6372291419466658720
+        ChildIds: 12784564271828981262
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:id"
+            Int: 20
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 9374624801430555842
+        Name: "Spawned Crop"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: 37.8658447
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10382507086805871347
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 6372291419466658720
+        Name: "Crop Bed Collider"
+        Transform {
+          Location {
+            X: -200
+            Y: 199.157547
+            Z: -1.30361938
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.98990655
+            Y: 3.46667528
+            Z: 0.149453163
+          }
+        }
+        ParentId: 10382507086805871347
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
+          DisableReceiveDecals: true
+          DisableAngularMotionBlur: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 12784564271828981262
+        Name: "Client Geo"
+        Transform {
+          Location {
+            X: -200
+            Y: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10382507086805871347
+        ChildIds: 9880378983272993214
+        ChildIds: 3637553586846322195
+        ChildIds: 17044557988440636409
+        ChildIds: 13470887627441819868
+        ChildIds: 13984280606832502197
+        ChildIds: 17431368849713884208
+        ChildIds: 15669126093588167021
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 9880378983272993214
+        Name: "Frame"
+        Transform {
+          Location {
+            X: 1.85988617
+            Y: -1.83526611
+            Z: -34.0761108
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12784564271828981262
+        ChildIds: 3761841473011305547
+        ChildIds: 9214368986500610430
+        ChildIds: 6155413308777415094
+        ChildIds: 2760938260400597213
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3761841473011305547
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -148.294678
+            Y: 148.189392
+          }
+          Rotation {
+            Roll: 89.9999771
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9880378983272993214
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 9214368986500610430
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9880378983272993214
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 6155413308777415094
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: -147.985565
+            Y: 148.140076
+          }
+          Rotation {
+            Yaw: -89.9999619
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9880378983272993214
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 2760938260400597213
+        Name: "Wood 2x4 4m"
+        Transform {
+          Location {
+            X: 148.140106
+            Y: -148.164734
+          }
+          Rotation {
+            Yaw: -179.999954
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9880378983272993214
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12394684501469666542
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 3637553586846322195
+        Name: "Dirt"
+        Transform {
+          Location {
+            Z: 0.0169563293
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.7381916
+            Y: 3
+            Z: 1
+          }
+        }
+        ParentId: 12784564271828981262
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9885329182473979133
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 285290298868226643
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 17044557988440636409
+        Name: "Outline Object"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12784564271828981262
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Object To Outline"
+            ObjectReference {
+              SubObjectId: 9880378983272993214
+            }
+          }
+          Overrides {
+            Name: "bp:Thickness"
+            Float: 0.574421644
+          }
+          Overrides {
+            Name: "bp:Dynamic Thickness"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Color A"
+            Color {
+              R: 0.994000077
+              G: 0.978222191
+              A: 0.325000018
+            }
+          }
+          Overrides {
+            Name: "bp:Hierarchy Discovery Depth"
+            Int: 2
+          }
+          Overrides {
+            Name: "bp:Multi-Color"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Max Distance Thickness"
+            Float: 0.162790269
+          }
+          Overrides {
+            Name: "bp:Enabled"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 12350751209618194571
+          }
+          TeamSettings {
+          }
+        }
+      }
+      Objects {
+        Id: 13470887627441819868
+        Name: "Area Trigger"
+        Transform {
+          Location {
+            Z: 90.1924667
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.32391667
+            Y: 3.73364282
+            Z: 1.9253453
+          }
+        }
+        ParentId: 12784564271828981262
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 13984280606832502197
+        Name: "Highlight"
+        Transform {
+          Location {
+            X: 3.56599426
+            Z: 55.3369522
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.02223825
+            Y: 3.50861764
+            Z: 2.72583413
+          }
+        }
+        ParentId: 12784564271828981262
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12511001409884349590
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 756137588379761240
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 17431368849713884208
+        Name: "Grown Effect"
+        Transform {
+          Location {
+            Z: 52.6236267
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.73128438
+            Y: 3.30934596
+            Z: 1
+          }
+        }
+        ParentId: 12784564271828981262
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 2.72034168
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 4.65142775
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 2.60236025
+          }
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0.83596611
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.522161603
+          }
+          Overrides {
+            Name: "bp:Curl Variance"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Curl Offset"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 143483960029989984
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 15669126093588167021
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12784564271828981262
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -8968,7 +15941,6 @@ Assets {
         ChildIds: 12180016875871451232
         ChildIds: 12722630305896102797
         ChildIds: 6837233610319743249
-        ChildIds: 1176745489402073007
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -9762,62 +16734,6 @@ Assets {
         }
       }
       Objects {
-        Id: 1176745489402073007
-        Name: "Notification Container"
-        Transform {
-          Location {
-            X: -2240.2749
-            Y: 490.731445
-            Z: -2.28881836e-05
-          }
-          Rotation {
-            Yaw: -136.272736
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9620844415793393290
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Control {
-          Width: 500
-          Height: 153
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Panel {
-            Opacity: 1
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
         Id: 6296704336855235321
         Name: "Scripts"
         Transform {
@@ -10140,7 +17056,7 @@ Assets {
           Overrides {
             Name: "cs:container"
             ObjectReference {
-              SubObjectId: 1176745489402073007
+              SubObjectId: 9620844415793393290
             }
           }
           Overrides {
@@ -10451,7 +17367,7 @@ Assets {
         Name: "Sell Crops"
         Transform {
           Location {
-            X: 620.832397
+            X: 875
             Y: 270.710724
             Z: 0.000122070313
           }
@@ -13790,7 +20706,7 @@ Assets {
         Name: "Buy Seeds"
         Transform {
           Location {
-            X: 620.832397
+            X: 875
             Y: -305.608978
             Z: 0.000122070313
           }
@@ -17126,6 +24042,71 @@ Assets {
           Radius: -1
         }
       }
+      Objects {
+        Id: 9910399884719584072
+        Name: "Server Script"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6387200221022991843
+        ChildIds: 13622304300095853041
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+          Type: Server
+        }
+      }
+      Objects {
+        Id: 13622304300095853041
+        Name: "Crop_Plots_Example_Server"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9910399884719584072
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3226047106626614774
+          }
+        }
+      }
     }
     Assets {
       Id: 11124807871722129219
@@ -17215,6 +24196,15 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_Swirling_Magic_Column"
+      }
+    }
+    Assets {
+      Id: 3814731296574210589
+      Name: "Dust Puff VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_dust_puff"
       }
     }
     Assets {
@@ -17493,4 +24483,5 @@ Assets {
     }
   }
   SerializationVersion: 92
+  DirectlyPublished: true
 }

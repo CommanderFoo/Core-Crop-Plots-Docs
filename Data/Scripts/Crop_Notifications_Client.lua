@@ -22,7 +22,7 @@ function Tick(dt)
 		end
 
 		current_item.notification.x = -current_item.notification.width
-		current_item.notification.y = 0
+		current_item.notification.y = 50
 
 		tween = YOOTIL.Tween:new(.4, { x = current_item.notification.x }, { x = 45 })
 			
@@ -39,7 +39,7 @@ function Tick(dt)
 				current_item.notification.x = c.x
 			end)
 
-			tween:set_delay(10)
+			tween:set_delay(4)
 			tween:on_complete(function()
 				tween = nil
 				current_item.notification:Destroy()

@@ -8,5 +8,5 @@
 -- they spawn in when joining the game.
 
 Game.playerJoinedEvent:Connect(function(player)
-	player:SetWorldPosition(Vector3.New(-337.570, -42.070, player:GetWorldPosition().z))
+	player:SetWorldPosition(Vector3.New(-1800, -25, player:GetWorldPosition().z))
 end)

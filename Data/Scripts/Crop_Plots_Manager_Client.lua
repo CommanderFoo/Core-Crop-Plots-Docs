@@ -53,6 +53,10 @@ local function enable_grown_effect(bed)
 	bed:FindDescendantByName("Grown Effect"):Play()
 end
 
+local function play_dust_effect(bed)
+	bed:FindDescendantByName("Dust Puff VFX"):Play()
+end
+
 local function plant_crop_from_zone_data(bed_data, b, skip_time)
 	local crop_data = get_crop_data(bed_data.c)
 
@@ -326,6 +330,8 @@ local function plant_crop(id)
 		time_item.name = "Crop Time"
 		time_item:SetPosition(Vector3.New(0, 0, 40))
 
+		play_dust_effect(last_crop_bed_selected.parent)
+		
 		last_crop_bed_selected = nil
 
 		Task.Wait(.1)
@@ -492,6 +498,7 @@ local function crop_has_been_harvested(crop_bed_id)
 				if(Object.IsValid(crop_item)) then
 					crop_item:Destroy()
 					harvest_sound:Play()
+					play_dust_effect(c)
 					disable_grown_effect(c)
 				end
 

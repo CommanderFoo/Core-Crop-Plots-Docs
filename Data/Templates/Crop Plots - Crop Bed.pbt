@@ -1,12 +1,12 @@
 Assets {
-  Id: 17619381077452503542
+  Id: 16245195455899750959
   Name: "Crop Plots - Crop Bed"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 5230486435679503460
+      RootId: 18139960912829660166
       Objects {
-        Id: 5230486435679503460
+        Id: 18139960912829660166
         Name: "Crop Plots - Crop Bed"
         Transform {
           Scale {
@@ -15,10 +15,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14573011643966445849
-        ChildIds: 3233494955082862836
-        ChildIds: 7539025435976148308
-        ChildIds: 5564023579580756412
+        ParentId: 18051288724632592355
+        ChildIds: 453665620947511451
+        ChildIds: 17582455677245404367
+        ChildIds: 10120748451471227911
         UnregisteredParameters {
           Overrides {
             Name: "cs:id"
@@ -42,7 +42,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3233494955082862836
+        Id: 453665620947511451
         Name: "Spawned Crop"
         Transform {
           Location {
@@ -58,7 +58,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5230486435679503460
+        ParentId: 18139960912829660166
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -75,7 +75,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7539025435976148308
+        Id: 17582455677245404367
         Name: "Crop Bed Collider"
         Transform {
           Location {
@@ -91,7 +91,7 @@ Assets {
             Z: 0.149453163
           }
         }
-        ParentId: 5230486435679503460
+        ParentId: 18139960912829660166
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -126,7 +126,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5564023579580756412
+        Id: 10120748451471227911
         Name: "Client Geo"
         Transform {
           Location {
@@ -141,13 +141,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5230486435679503460
-        ChildIds: 17828858575259805308
-        ChildIds: 8789302353179947964
-        ChildIds: 17603608216844919439
-        ChildIds: 6836992899550718999
-        ChildIds: 8538975267288189344
-        ChildIds: 7596612103244882663
+        ParentId: 18139960912829660166
+        ChildIds: 17199302454333845969
+        ChildIds: 9235713618120551418
+        ChildIds: 15462170292244310056
+        ChildIds: 11022769686646538437
+        ChildIds: 7011839942779627481
+        ChildIds: 15255738263011956345
+        ChildIds: 5816734503292035210
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -164,7 +165,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17828858575259805308
+        Id: 17199302454333845969
         Name: "Frame"
         Transform {
           Location {
@@ -180,11 +181,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5564023579580756412
-        ChildIds: 15348874850574455633
-        ChildIds: 11371706223836555500
-        ChildIds: 12984992531068646938
-        ChildIds: 10461260086149950374
+        ParentId: 10120748451471227911
+        ChildIds: 2565787702525411444
+        ChildIds: 16245019775430441766
+        ChildIds: 2728684779963006082
+        ChildIds: 16953793605887436333
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -202,7 +203,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15348874850574455633
+        Id: 2565787702525411444
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -218,7 +219,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17828858575259805308
+        ParentId: 17199302454333845969
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -249,7 +250,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11371706223836555500
+        Id: 16245019775430441766
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -267,7 +268,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17828858575259805308
+        ParentId: 17199302454333845969
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -298,7 +299,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12984992531068646938
+        Id: 2728684779963006082
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -315,7 +316,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17828858575259805308
+        ParentId: 17199302454333845969
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -346,7 +347,7 @@ Assets {
         }
       }
       Objects {
-        Id: 10461260086149950374
+        Id: 16953793605887436333
         Name: "Wood 2x4 4m"
         Transform {
           Location {
@@ -363,7 +364,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17828858575259805308
+        ParentId: 17199302454333845969
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -394,7 +395,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8789302353179947964
+        Id: 9235713618120551418
         Name: "Dirt"
         Transform {
           Location {
@@ -408,7 +409,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5564023579580756412
+        ParentId: 10120748451471227911
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -447,7 +448,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17603608216844919439
+        Id: 15462170292244310056
         Name: "Outline Object"
         Transform {
           Location {
@@ -460,17 +461,17 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5564023579580756412
+        ParentId: 10120748451471227911
         UnregisteredParameters {
           Overrides {
             Name: "bp:Object To Outline"
             ObjectReference {
-              SubObjectId: 17828858575259805308
+              SubObjectId: 17199302454333845969
             }
           }
           Overrides {
             Name: "bp:Thickness"
-            Float: 2
+            Float: 0.574
           }
           Overrides {
             Name: "bp:Dynamic Thickness"
@@ -480,8 +481,8 @@ Assets {
             Name: "bp:Color A"
             Color {
               R: 0.994000077
-              G: 0.978222311
-              A: 0.8
+              G: 0.978222191
+              A: 0.325000018
             }
           }
           Overrides {
@@ -522,7 +523,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6836992899550718999
+        Id: 11022769686646538437
         Name: "Area Trigger"
         Transform {
           Location {
@@ -536,7 +537,7 @@ Assets {
             Z: 1.9253453
           }
         }
-        ParentId: 5564023579580756412
+        ParentId: 10120748451471227911
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
         }
@@ -560,7 +561,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8538975267288189344
+        Id: 7011839942779627481
         Name: "Highlight"
         Transform {
           Location {
@@ -575,7 +576,7 @@ Assets {
             Z: 2.72583413
           }
         }
-        ParentId: 5564023579580756412
+        ParentId: 10120748451471227911
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -619,7 +620,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7596612103244882663
+        Id: 15255738263011956345
         Name: "Grown Effect"
         Transform {
           Location {
@@ -633,7 +634,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5564023579580756412
+        ParentId: 10120748451471227911
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
@@ -693,6 +694,73 @@ Assets {
         }
         Relevance {
           Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 5816734503292035210
+        Name: "Dust Puff VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10120748451471227911
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.880380332
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 1.08748257
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Radius"
+            Float: 0.147356346
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.223227963
+              G: 0.114435375
+              B: 0.0423114114
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3814731296574210589
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
         }
       }
     }
@@ -759,10 +827,20 @@ Assets {
         AssetId: "fxbp_Swirling_Magic_Column"
       }
     }
+    Assets {
+      Id: 3814731296574210589
+      Name: "Dust Puff VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_dust_puff"
+      }
+    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
   SerializationVersion: 92
+  DirectlyPublished: true
 }

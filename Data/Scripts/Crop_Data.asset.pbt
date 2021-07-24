@@ -123,6 +123,14 @@ Assets {
         Name: "cs:harvest_amount:tooltip"
         String: "The amount the player will get when harvested."
       }
+      Overrides {
+        Name: "cs:buy_price:tooltip"
+        String: "The buy price for the seeds."
+      }
+      Overrides {
+        Name: "cs:sell_price:tooltip"
+        String: "The sell price of this crop."
+      }
     }
   }
   SerializationVersion: 92
